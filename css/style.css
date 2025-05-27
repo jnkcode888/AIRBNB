@@ -685,29 +685,37 @@ button {
 /** gallery  section **/
 
 .gallery {
-     padding-top: 60px;
+     background: #f8f8f8;
+     padding: 90px 0;
 }
 
 .gallery .titlepage {
      text-align: center;
 }
 
-.gallery .gallery_img {
-     overflow: hidden;
+.gallery_img {
      margin-bottom: 30px;
-}
-
-.gallery .gallery_img figure {
-     margin: 0;
-}
-
-.gallery .gallery_img figure img {
+     position: relative;
+     overflow: hidden;
+     height: 250px;
      width: 100%;
-     transition: all .5s;
 }
 
-.gallery .gallery_img figure img:hover {
-     transform: scale(1.2);
+.gallery_img figure {
+     margin: 0;
+     height: 100%;
+     width: 100%;
+}
+
+.gallery_img figure img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: all 0.3s ease;
+}
+
+.gallery_img figure:hover img {
+     transform: scale(1.1);
 }
 
 
