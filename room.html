@@ -28,6 +28,16 @@
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("Rhb__vciBLuHQzm41");
+      })();
+    </script>
     <!-- Tweaks for older IEs-->
     <link
       rel="stylesheet"
@@ -240,12 +250,12 @@
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                   <li><i class="fa fa-star"></i> New listing</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/jwN7Kt6X"
+                <button
                   class="book_btn"
-                  target="_blank"
-                  >Book Now</a
+                  onclick="openBookingForm('Lake view 4 bamburi', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -335,12 +345,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/w5JEGNSD"
+                <button
                   class="book_btn"
-                  target="_blank"
-                  >Book Now</a
+                  onclick="openBookingForm('Ivory Haus Nyali Cinemax apartment', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -430,12 +440,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/fTe86BUD"
+                <button
                   class="book_btn"
-                  target="_blank"
-                  >Book Now</a
+                  onclick="openBookingForm('Casa Clara Nyali links road', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -525,12 +535,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/50qvHUSB"
+                <button
                   class="book_btn"
-                  target="_blank"
-                  >Book Now</a
+                  onclick="openBookingForm('Casa Ma Cherie Nyali Cinemax apartment', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -620,12 +630,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/e1q4fUXJ"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Bali beach road Nyali Oasis', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -715,12 +725,12 @@
                   <li><i class="fa fa-bed"></i> Studio, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/at7BTG1C"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Lakeview.2 Naivas bamburi', 'Mombasa, Kenya', '2', 'Studio, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -810,12 +820,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/ufy5BF9I"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Artist sanctuary in bamburii', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -905,12 +915,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/YlYkD0YR"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('MEcasa Bamburi fisheries', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1000,12 +1010,12 @@
                   <li><i class="fa fa-bed"></i> 2 bedrooms, 2 beds</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/FIar54AK"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Casa Del Arte 5 mins walk to the beach', 'Diani Beach, Kenya', '4', '2 bedrooms, 2 beds', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1095,12 +1105,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/ufy5BF9I"
+                <button
                   class="book_btn"
-                  target="_blank"
-                  >Book Now</a
+                  onclick="openBookingForm('Artist sanctuary in bamburii', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1190,12 +1200,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/hYUQPMJ6"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Casa Migos Bamburi fisheries', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1285,12 +1295,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/0wGhHL07"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Mtwapa Opulence studio apartment', 'Mtwapa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1380,12 +1390,12 @@
                   <li><i class="fa fa-bed"></i> Studio, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/yfM0ku0k"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Lakeview phase4 Naivas Bamburi', 'Mombasa, Kenya', '2', 'Studio, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1475,12 +1485,12 @@
                   <li><i class="fa fa-bed"></i> Studio, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/at7BTG1C"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Lakeview.2 Naivas bamburi', 'Mombasa, Kenya', '2', 'Studio, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1570,12 +1580,12 @@
                   <li><i class="fa fa-bed"></i> 2 bedrooms, 2 beds</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/FIar54AK"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Casa Del Arte 5 mins walk to the beach', 'Diani Beach, Kenya', '4', '2 bedrooms, 2 beds', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1665,12 +1675,12 @@
                   <li><i class="fa fa-bed"></i> Studio, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/WrnyEGmt"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Mfanaka Lakeview Naivas Bamburi', 'Mombasa, Kenya', '2', 'Studio, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1760,12 +1770,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/z3OzUVaB"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Casa Fahy Nyali', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1855,12 +1865,12 @@
                   <li><i class="fa fa-bed"></i> 1 bedroom, 1 bed</li>
                   <li><i class="fa fa-bath"></i> 1 bathroom</li>
                 </ul>
-                <a
-                  href="https://www.airbnb.com/l/eguclV5d"
-                  target="_blank"
+                <button
                   class="book_btn"
-                  >Book Now</a
+                  onclick="openBookingForm('Friend Staycation Nyali', 'Mombasa, Kenya', '2', '1 bedroom, 1 bed', '1 bathroom')"
                 >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -1954,5 +1964,62 @@
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
+    <!-- Booking Overlay Form -->
+    <div id="bookingOverlay" class="booking-overlay">
+      <div class="booking-form-container">
+        <div class="booking-form-header">
+          <h2>Book Your Stay</h2>
+          <button class="close-btn" onclick="closeBookingForm()">
+            &times;
+          </button>
+        </div>
+        <form id="bookingForm" class="booking-form">
+          <input type="hidden" id="roomName" name="roomName" />
+          <input type="hidden" id="roomLocation" name="roomLocation" />
+          <input type="hidden" id="roomGuests" name="roomGuests" />
+          <input type="hidden" id="roomBedrooms" name="roomBedrooms" />
+          <input type="hidden" id="roomBathrooms" name="roomBathrooms" />
+
+          <div class="form-group">
+            <label for="checkIn">Check-in Date</label>
+            <input type="date" id="checkIn" name="checkIn" required />
+          </div>
+
+          <div class="form-group">
+            <label for="checkOut">Check-out Date</label>
+            <input type="date" id="checkOut" name="checkOut" required />
+          </div>
+
+          <div class="form-group">
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" name="guests" min="1" required />
+          </div>
+
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Special Requests (Optional)</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            Submit Booking Request
+          </button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

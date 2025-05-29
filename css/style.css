@@ -1081,6 +1081,150 @@ line-height: 35px;
      margin-top: 90px;
 }
 
+/* Booking Overlay Styles */
+.booking-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.booking-form-container {
+    position: relative;
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.booking-form-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.booking-form .form-group {
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+}
+
+.booking-form input,
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.booking-form input:focus,
+.booking-form textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .booking-form-container {
+        width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+/* Booking Message Styles */
+.booking-message {
+    padding: 30px;
+    text-align: center;
+}
+
+.booking-message h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.booking-message p {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.booking-message.success {
+    background-color: #f8fff8;
+    border: 1px solid #4CAF50;
+}
+
+.booking-message.error {
+    background-color: #fff8f8;
+    border: 1px solid #ff4e4e;
+}
+
+.booking-message .submit-btn {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.booking-message.error .submit-btn {
+    background-color: #ff4e4e;
+}
+
+.booking-message .submit-btn:hover {
+    opacity: 0.9;
+}
+
 
 
 
